@@ -21,7 +21,7 @@ Navigate to project directory in the terminal. From there:
 This installs the external libraries for the project.
 Be sure to link new libraries in the .html if needed.
 
-** SUPER IMPORTANT NOTE ABOUT THIS **
+**SUPER IMPORTANT NOTE ABOUT THIS**
 
 Before finally committing your repo to Github or anywhere else really for production (using git), be sure to delete the
 `libs/bower_components`
