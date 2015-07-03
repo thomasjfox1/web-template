@@ -1,9 +1,5 @@
 ## Basic Website Template
 
-*Created by Thomas J. Fox*
-
-*thomasjfox1@gmail.com*
-
 File structure created for ease of use when starting new static, front-end project.
 Perfect for a github.io portfolio project.
 
