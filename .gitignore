@@ -1,9 +1,3 @@
 .DS_Store
 
-grunt_tmp
-
-public/scripts/dist
-public/scripts/main.js
 libs/bower_components
-
-public/styles/*.css
