@@ -34,10 +34,6 @@ function getTime(){
   var minute = date.getMinutes();
   var hour = date.getHours();
 
-  if (minute < 10){
-    minute = '0' + String(minute);
-  }
-
   // time = String(hour) + ':' + String(minute) + ':' + String(second);
   time = String(hour) + ':' + String(minute);
 
@@ -50,7 +46,7 @@ function greeting(){
   var greeting;
   var intro = "I hope that you are having a "
   if (hour >= 12 && hour < 18){
-      greeting = intro + "good afternoon!";
+      greeting = into + "good afternoon!";
   }
   else if (hour >= 18){
       greeting = intro + "good evening!";
@@ -89,7 +85,7 @@ function dayOfWeek(){
 $(function(){
     $(".element").typed({
       strings: ["Hi, there!", greeting(), "My name is Alan and I'm a clock.","Do you happen to know what time is it? I seem to have forgotten.", "Oh I am just joking.", "It's " + getTime(), dayOfWeek()],
-      typeSpeed: 25,
+      typeSpeed: 50,
       backSpeed: 0,
       backDelay: 2000,
       startDelay: 5000,
